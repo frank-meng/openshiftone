@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  datasource:
+    url: jdbc:mysql://localhost:3326/healthapp
+    username: root
+    password: r00t
+
+logging:
+  level:
+    org.springframework.security: DEBUG  
